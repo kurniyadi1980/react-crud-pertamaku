@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.add-button {
+  display: block;
+  padding: 12px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.ninja-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.ninja-card {
+  flex: 1;
+  min-width: 250px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  color: #000;
+}
+
+.ninja-title {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.btn-update,
+.btn-add {
+  text-decoration: none;
+  color: white;
+}
+.card-button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
