@@ -2,6 +2,8 @@
 
 <a target="_blank" href="http://dudi.byethost10.com/">Link Aplication</a>
 
+<a target="_blank" href="http://id15.tunnel.my.id:12176/ninja/">Link API</a>
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
